@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bgfront"
+        android:orientation="vertical"
+        android:layout_margin="35dp"
+        android:padding="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+             android:textAllCaps="true"
+            android:text="Log In"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:ems="10"
+            android:hint="Enter your email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/white"
+            android:textColorHint="#CEB3D2" />
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:hint="Enter password"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="#CEB3D2" />
+
+
+        <Button
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logbtn"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/white"
+            app:backgroundTint="#860EEB"
+            android:text="Log In"
+            android:textAllCaps="true"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

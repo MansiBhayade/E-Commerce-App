@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Sorting options (single selection) -->
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:icon="@drawable/ic_sort"
+            android:title="" />
+        <item
+            android:id="@+id/nav_sort_price"
+            android:title="Sort by Price" />
+        <item
+            android:id="@+id/nav_sort_rating"
+            android:title="Sort by Rating" />
+    </group>
+
+    <!-- Filter options (multiple selection with checkboxes) -->
+    <group android:id="@+id/group_filter_options"
+        >
+
+        <item
+            android:icon="@drawable/baseline_filter_alt_24"
+            android:title="" />
+
+
+
+
+            <item
+                android:id="@+id/nav_filter_price_range"
+                android:title="Filter by Price Range "
+                android:checkable="true"
+
+                />
+
+    </group>
+</menu>
+
+

@@ -17,4 +17,6 @@
     <style name="ThemeOverlay.AppTheme.ActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
         <item name="android:textColorPrimary">#FFFFFF</item>
     </style>
+
+
 </resources>
