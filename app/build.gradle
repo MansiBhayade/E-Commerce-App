@@ -4,11 +4,11 @@ plugins {
 
 android {
     namespace 'com.example.e_commerceapp'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.example.e_commerceapp"
-        minSdk 20
+        minSdk 22
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -36,4 +36,10 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.2.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'org.openjfx:javafx-controls:17'
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
 }
