@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">e-commerce app</string>
+    <string name="app_name">E-Commerce App</string>
     <string name="nav_open">Open</string>
     <string name="nav_close">Close</string>
     <string name="checkout">Checkout</string>
