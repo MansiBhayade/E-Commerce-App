@@ -23,6 +23,8 @@ This project is an E-commerce Android application that fetches product details f
 
 ## Installation
 
+Device must be connected to Internet
+
 1. Clone the repository:
     ```bash
     git clone git@github.com:MansiBhayade/E-Commerce-App.git

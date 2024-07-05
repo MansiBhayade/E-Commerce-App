@@ -27,8 +27,7 @@
             android:layout_margin="16dp"
             android:background="@drawable/search_background"
             android:layout_below="@+id/toolbar"
-            android:textColor="@color/black"
-            app:queryHint="Enter Cryptocurrency Name"
+            android:textColor="@color/white"
             app:searchIcon="@drawable/ic_search"
             app:closeIcon="@drawable/ic_close" />
 
